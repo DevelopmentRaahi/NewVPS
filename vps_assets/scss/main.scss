@@ -1,5 +1,4 @@
 
-@import url('../_carrier.scss');
 
 // @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
@@ -63,9 +62,8 @@ $one_two_three_color :rgb(255 89 18);
     box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.288);
 }
 
-.background_random {
-    //  background-color: rgba(147, 168, 157, 0.597) !important;
-   background: linear-gradient(to right, rgb(25 26 52), rgb(0 0 0 / 66%)), url(../img/window-vps-hosting/bg.jpg);
+.background_random {  
+   background: linear-gradient(to right, rgb(25 26 52), rgb(0 0 0 / 66%));
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -982,7 +980,7 @@ $add_cart_color: #4e84c6;
     h4 {
         text-align: center;
         font-size: 2.5rem;
-        font-weight: 700;
+        font-weight: 600;
         color: $heading_color;
     }
 
